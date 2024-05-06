@@ -1,0 +1,25 @@
+.headerNav {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    justify-content: space-between;
+
+}
+
+.headerNavLink {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.headerNavLink li:hover {
+    color: #ff7f00;
+    border-bottom: 3px solid #ff7f00;
+    border-radius: 2px;
+}
+
+.headerNavImg {
+    width: 170px;
+}

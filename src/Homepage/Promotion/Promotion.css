@@ -1,0 +1,35 @@
+.promotionSection {
+    max-width: 1400px;
+    margin: 50px auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.promotionBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+.promotionTitleBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.promotionBoxTitleOne {
+    font-size: 24px;
+    color: #ff7f00;
+}
+
+.promotionBoxTitleTwo {
+    font-size: 64px;
+}
+
+.promotionBoxTitleThree {
+    font-size: 16px;
+}
+
+.promotionBoxImg {
+    max-width: 400px;
+    border-radius: 50%;
+}
