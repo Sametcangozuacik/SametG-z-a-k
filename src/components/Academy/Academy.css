@@ -1,0 +1,50 @@
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.academy-section {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.academy-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.academy-title-h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.academy-title-h2-step {
+    color: #ff7f00;
+
+}
+
+.academy-p-span {
+    color: #ff7f00;
+}
+
+.academy-section-box p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+
+}

@@ -1,0 +1,67 @@
+.about-section {
+    margin: 0 auto;
+    max-width: 1400px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+}
+
+.about-section h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ff7f00;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.about-section h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff7f00;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section-skills {
+    margin: 0 auto;
+    max-width: 1400px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+}
+
+.about-section-skills-ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: "Poppins", sans-serif;
+    place-items: center;
+    margin: 25px 0px;
+}
+
+.about-section-skills-ul li {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border: 2px solid #ff7f00;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: #ff7f00 0px 0px 10px;
+}
+
+.about-section-skills-img {
+    width: 30px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
