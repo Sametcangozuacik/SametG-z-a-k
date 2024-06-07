@@ -37,7 +37,7 @@ function Footer({ language }) {
                             <a href="https://github.com/Sametcangozuacik">
                                 <img className="footer-social-icon" src={github} alt="Github" />
                             </a>
-                            <a href="https://wa.me/905001234567" rel="nofollow" target="_blank"><img className="footer-social-icon" src={whatsapp} /></a>
+                            <a href="https://wa.me/905073195505" rel="nofollow" target="_blank"><img className="footer-social-icon" src={whatsapp} /></a>
                             <a href="tel:+905073195505"><img className="footer-social-icon" src={phonesolid} /></a>
                         </li>
                     </ul>

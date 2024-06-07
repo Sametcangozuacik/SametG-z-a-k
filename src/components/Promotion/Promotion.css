@@ -51,3 +51,18 @@
     background-color: #ff7f00;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .promotionBox {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .promotionBoxTitleTwo {
+        font-size: 48px;
+    }
+
+    .promotionBoxImg {
+        max-width: 300px;
+    }
+}

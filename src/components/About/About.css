@@ -57,11 +57,39 @@
     padding: 5px;
     width: 200px;
     border-radius: 5px;
-    box-shadow: #ff7f00 0px 0px 10px;
+
 }
 
 .about-section-skills-img {
     width: 30px;
     margin: 0 auto;
-    border: 1px solid red;
+}
+
+.about-section-skills-ul li:hover {
+    box-shadow: #ff7f00 0px 0px 10px;
+    transition: 0.5s;
+    color: #ff7f00;
+}
+
+.about-section-img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-section-skills-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 20px;
+    }
+
+    .about-section-skills-ul li {
+        width: 100%;
+    }
+
+    .about-section p {
+        padding: 0px 20px;
+    }
+
 }

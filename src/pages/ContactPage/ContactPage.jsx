@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './ContactPage.css';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import Communication from '../../components/Communication/Communication';
 
 
 function ContactPage() {
@@ -13,6 +14,7 @@ function ContactPage() {
     return (
         <div>
             <Header language={language} onLanguageChange={handleLanguageChange} />
+            <Communication language={language} />
             <Footer language={language} />
         </div>
     );

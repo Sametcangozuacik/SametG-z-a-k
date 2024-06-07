@@ -48,3 +48,33 @@ li {
     font-family: "Poppins", sans-serif;
 
 }
+
+@media screen and (max-width: 768px) {
+    .academy-section-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .academy-section-box img {
+        max-width: 100%;
+    }
+
+    .academy-section-box p {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        text-align: justify;
+        font-family: "Poppins", sans-serif;
+        padding: 10px;
+    }
+
+    .academy-title-h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-family: "Poppins", sans-serif;
+        padding: 10px;
+    }
+
+}
