@@ -43,6 +43,52 @@
     color: #ff7f00;
 }
 
+.communication-section-input-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 500px;
+    gap: 10px;
+
+}
+
+.communication-section-input {
+    padding: 10px;
+    border: 1px solid #ff7f00;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.communication-section-input-two {
+    padding: 10px;
+    border: 1px solid #ff7f00;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+
+}
+
+.communication-section-input-btn {
+    padding: 10px;
+    border: 1px solid #ff7f00;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    background-color: #ff7f00;
+    color: white;
+    cursor: pointer;
+
+}
+
+.communication-section-input-btn:hover {
+    background-color: transparent;
+    color: #ff7f00;
+
+}
+
 @media screen and (max-width: 768px) {
     .communication-section-box {
         flex-direction: column;
